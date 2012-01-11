@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Hacker News</title>
+  <style>
+  body { margin:0px; padding:1em; height:auto; width:auto; background-image: url(images/bg.png); background-repeat: repeat-x; font-family:sans-serif; }
+  #details { float:right; text-align:right; color:#e66a17; font-size: 0.72em;}
+  #details ul { margin-top:10px; list-style:none; }
+  #details ul li { float:left; }
+  #details ul li.points { background-image: url(images/points.png); background-repeat: no-repeat; background-position: 0% 50%; padding: 3px 8px 3px 20px; margin: .4em 0; }
+  #details ul li.comments { background-image: url(images/comments.png); background-repeat: no-repeat; background-position: 0% 50%; padding: 3px 0px 3px 20px; margin: .4em 0; }
+  h1 { font-size: 1.2em; height:80%; font-family: Helvetica, sans-serif; color:#EEEEEE; }
+  p { font-size: 0.8em; font-family: Helvetica, sans-serif; color: #e66a17; }
+  </style>
+</head>
+<body>
+  <script src="scripts/background.js"></script>
+  <h1 id="title"></h1>
+  <div id="details">
+  	<ul>
+  		<li class="points" id="points"></li>
+  		<li class="comments" id="comments"></li>
+  	</ul>
+  </div>
+</body>
+</html>

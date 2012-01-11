@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" id="http://tumble.ramkumar.me/hackernewsdial" defaultlocale="en" viewmodes="minimized" version="1.0">
+  <name short="">Hacker News</name>
+  <author href="http://ramkumar.me/">Ramkumar Shankar</author>
+  <description>Top stories from Hacker News in your speed dial.</description>
+  <license href="http://www.apache.org/licenses/LICENSE-2.0.html">Distributed under the Apache 2.0 License.</license>
+  <icon src="images/hn_dial.png"/>  
+  <feature name="opera:speeddial" required="true">
+    <param name="url" value="http://news.ycombinator.com/"/>
+  </feature>
+  <access origin="http://api.ihackernews.com/" subdomains="true"/>
+</widget>
